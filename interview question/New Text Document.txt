@@ -1,0 +1,34 @@
+How will you design an API framework?"
+
+You can answer:
+
+Plain Text
+1. Create common ApiClient.
+2. Create API layer classes.
+3. Store test data in JSON.
+4. Keep assertions in test files.
+5. Use environment-based configs.
+6. Generate reports through Playwright.
+
+
+Real Framework Structure
+
+Create this structure:
+
+Plain Text
+Playwright-API-Framework
+│
+├── api
+│ ├── AuthAPI.js
+│ └── UserAPI.js
+│
+├── utils
+│ └── ApiClient.js
+│
+├── test-data
+│ └── userData.json
+│
+├── tests
+│ └── user.spec.js
+│
+└── playwright.config.js
